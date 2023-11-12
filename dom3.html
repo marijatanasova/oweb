@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Guess the Word</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Word</h1>
+        <div id="word-display"> <!-- Display the word here --> </div>
+        <input type="text" id="guess-input" placeholder="Enter your guess">
+        <button onclick="checkGuess()">Check Guess</button>
+        <div id="guess-count">Guesses left: 5</div>
+        <div id="result-popup" class="popup"> <!-- Display result here --> </div>
+        <button onclick="newGame()">New Game</button>
+    </div>
+    <script src="gtw.js"></script>
+</body>
+</html>
